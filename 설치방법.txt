@@ -1,0 +1,16 @@
+하루비 노래책 - 공용 저장 버전
+
+이 버전은 Netlify Functions + Netlify Blobs를 사용합니다.
+사이트 방문자는 로그인 없이 노래를 추가/수정/삭제할 수 있고,
+모든 기기에서 같은 노래 목록을 사용합니다.
+
+중요:
+- 사이트 주소를 아는 사람은 누구나 수정할 수 있습니다.
+- 단순 드래그앤드롭 정적 배포가 아니라, Netlify가 이 프로젝트를 빌드해야 합니다.
+- 가장 쉬운 배포 방법은 GitHub 저장소에 이 폴더 전체를 올린 뒤 Netlify에서 Import existing project를 선택하는 것입니다.
+
+구성:
+public/index.html
+netlify/functions/songs.mjs
+netlify.toml
+package.json
